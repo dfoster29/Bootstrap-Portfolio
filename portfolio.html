@@ -10,31 +10,75 @@
 </head>
 
 <body>
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Daniel Foster</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
-          </li>
-        </ul>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <div class="container">
+
+      <h1 class="navbar" style="color: white">Daniel Foster</h1>
+
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="./index.html">About</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./contact.html">Contact</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+
+  <div class="container my-5">
+    <!-- Wrap main body with a row -->
+    <div class="row">
+      <!-- Main-body left column (spans 8 cols on laptop, full width (12 cols) on phone/tablet) -->
+      <div class="col-md-9 col-sm-12">
+        <h3>Portfolio</h3>
+        <hr class="my-4">
+    
       </div>
-    </nav>
 
+      <div class="col-md-3 col-sm-12">
+        <div class="card">
+          <div class="card-header text-center">Connect With Me</div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-4">
+                <a href="https://github.com/dfoster29" target="_blank">
+                  <img src="./images/github.png" alt="github">
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a href="https://www.linkedin.com/in/dan-foster-8a2503126/" target="_blank">
+                  <img src="./images/linkedin.png" alt="linkedin">
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a href="https://stackoverflow.com/users/9247974/daniel-foster" target="_blank">
+                  <img src="./images/stackoverflow.png" alt="stack overflow">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
 
+      </div>
+
+    </div>
 
   </div>
+
+  </div>
+
+  <div class="jumbotron-fluid bg-success p-3 text-center">
+    <h5>Copyright &copy; 2018 Daniel Foster</h5>
+  </div>
+
 </body>
 
 </html>
